@@ -20,7 +20,7 @@ app = FastAPI( debug=True )
 # Enable CORS
 origins = [
     "http://localhost:3000",
-    "https://insurence-premium-prediction-fronte.vercel.app"
+    "https://bbc-news-classification-frontend.vercel.app/"
 ]
 
 app.add_middleware(
